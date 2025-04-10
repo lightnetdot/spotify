@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "jennifer's body",
+    "artist": "Kai Angel",
+    "cover": "/images/jenifersbody.png",
+    "description": "Single",
+    "audio": "/audio/jennifer's body.mp3"
+  },
+  {
+    "id": 2,
+    "title": "I Am Music",
+    "artist": "Playboy Carti",
+    "cover": "/images/iammusic.png",
+    "description": "Album",
+    "audio": "/audio/Playboi Carti - EVIL J0RDAN (Official Audio).mp3"
+  },
+  {
+    "id": 3,
+    "title": "FE!N",
+    "artist": "Travis Scott",
+    "cover": "/images/Travis Scott - FE!N.jpg",
+    "description": "Single",
+    "audio": "/audio/Travis Scott - FE!N ft. Playboi Carti.mp3"
+  },
+  {
+    "id": 4,
+    "title": "BIRDS OF A FEATHER",
+    "artist": "Billie Eilish",
+    "cover": "/images/Billie Eilish - BIRDS OF A FEATHER.jpg",
+    "description": "Album",
+    "audio": "/audio/Billie Eilish - BIRDS OF A FEATHER (Official Lyric Video).mp3"
+  },
+  {
+    "id": 5,
+    "title": "Anora",
+    "artist": "9mice",
+    "cover": "/images/Anora.jpg",
+    "description": "Single",
+    "audio": "/audio/Anora.mp3"
+  },
+  {
+    "id": 6,
+    "title": "goosebumps",
+    "artist": "Travis Scott",
+    "cover": "/images/goosebumps.jpg",
+    "description": "Single",
+    "audio": "/audio/goosebumps.mp3"
+  },
+  {
+    "id": 7,
+    "title": "NEW DROP",
+    "artist": "Don Toliver",
+    "cover": "/images/new drop.jpg",
+    "description": "Album",
+    "audio": "/audio/Don Toliver - NEW DROP [Official Audio].mp3"
+  },
+  {
+    "id": 8,
+    "title": "No Wind Resistance!",
+    "artist": "Kinneret ",
+    "cover": "/images/No wind resistance.jpg",
+    "description": "Single",
+    "audio": "/audio/Kinneret - No Wind Resistance! (Lyrics) (1).mp3"
+  },
+  {
+    "id": 9,
+    "title": "Dark Knight Dummo",
+    "artist": "Trippie Redd",
+    "cover": "/images/dark knight dummo.jpg",
+    "description": "Single",
+    "audio": "/audio/Trippie Redd, Travis Scott - Dark Knight Dummo ft. Travis Scott.mp3"
+  }
+]
