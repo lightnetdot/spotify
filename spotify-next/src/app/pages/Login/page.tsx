@@ -66,7 +66,7 @@ export default function LoginPage() {
         className="mt-4 underline cursor-pointer"
         onClick={() => router.push("/pages/SignUp")}
       >
-        Don't have an account? Register
+        Don&apos;t have an account? Register
       </p>
     </main>
   );
