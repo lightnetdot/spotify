@@ -1,6 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function EditProfilePage() {
   const router = useRouter();
@@ -43,7 +44,6 @@ export default function EditProfilePage() {
       avatar,
     };
 
-    // Сохраняем в localStorage
     if (typeof window !== "undefined") {
       localStorage.setItem("email", email);
       localStorage.setItem("password", password);
@@ -110,7 +110,6 @@ export default function EditProfilePage() {
         className="w-full max-w-4xl bg-gray-800 p-6 rounded-lg"
         onSubmit={(e) => e.preventDefault()}
       >
-        {/* Avatar Upload with Drag and Drop */}
         <div
           className={`mb-6 flex items-center gap-6 border-2 p-2 rounded-lg ${
             isDragging ? "border-green-500 bg-gray-700" : "border-gray-600"
@@ -132,10 +131,12 @@ export default function EditProfilePage() {
           }}
         >
           {avatar ? (
-            <img
+            <Image
               src={avatar}
               alt="Avatar"
               className="w-24 h-24 rounded-full object-cover border-2 border-gray-500"
+              width={96}
+              height={96}
             />
           ) : (
             <div className="w-24 h-24 rounded-full bg-gray-600 flex items-center justify-center text-sm text-gray-300">
@@ -274,8 +275,6 @@ export default function EditProfilePage() {
               checked={marketing}
               onChange={(e) => setMarketing(e.target.checked)}
             />
-            Share my registration data with Spotify's content providers for
-            marketing purposes.
           </label>
         </div>
 

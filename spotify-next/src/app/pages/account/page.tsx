@@ -6,9 +6,6 @@ import { useRouter } from "next/navigation";
 export default function AccountPage() {
   const router = useRouter();
 
-  const handleNavigation = (url: string) => {
-    window.location.href = url;
-  };
 
   return (
     <main className="min-h-screen bg-black text-white flex flex-col items-center">
